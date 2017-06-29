@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="no.webpartner.paviljongen.MainActivity">
+
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00AA8D"
+        android:padding="16dp"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:text="@string/app_title" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:src="@drawable/ute_2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/title_view"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/image_view"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opening_web"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opening_web_link"
+            android:textSize="16sp"
+            android:paddingLeft="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opening_hours"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opening_hours_monday"
+            android:textSize="16sp"
+            android:paddingLeft="8dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opening_hours_tuesday"
+            android:textSize="16sp"
+            android:paddingLeft="8dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opening_hours_wednesday"
+            android:textSize="16sp"
+            android:paddingLeft="8dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opening_hours_thursday"
+            android:textSize="16sp"
+            android:paddingLeft="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opening_hours_friday"
+            android:textSize="16sp"
+            android:paddingLeft="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opening_hours_saturday"
+            android:textSize="16sp"
+            android:paddingLeft="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opening_hours_sunday"
+            android:textSize="16sp"
+            android:paddingLeft="8dp"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

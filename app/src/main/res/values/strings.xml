@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Paviljongen</string>
+    <string name="app_title">Paviljongen i parken</string>
+    <string name="opening_web">Web:</string>
+    <string name="opening_web_link"><a href="https://www.facebook.com/pg/paviljongeniparken">Link til hjemmeside</a></string>
+    <string name="opening_hours">Åpningstider:</string>
+    <string name="opening_hours_monday">Mandag: Stengt</string>
+    <string name="opening_hours_tuesday">Tirsdag: 11:00 - 21:00</string>
+    <string name="opening_hours_wednesday">Onsdag: 11:00 - 22:00</string>
+    <string name="opening_hours_thursday">Torsdag: 11:00 - 21:00</string>
+    <string name="opening_hours_friday">Fredag: 11:00 - 22:00</string>
+    <string name="opening_hours_saturday">Lørdag: 11:00 - 22:00</string>
+    <string name="opening_hours_sunday">Søndag: 11:00 - 20:00</string>
+</resources>
